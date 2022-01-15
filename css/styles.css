@@ -320,6 +320,12 @@ Specific Section
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 668px) {
+  #brand img {
+    height: 25px;
+  }
+}
+
 /* Popular Collection */
 
 #popular-collection {
