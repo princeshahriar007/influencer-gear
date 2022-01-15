@@ -121,6 +121,22 @@ p {
   font-weight: 700;
 }
 
+.btn-inverse {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background: #ffffff;
+  color: rgb(224, 44, 109);
+  border-radius: 35px;
+  font-weight: 700;
+}
+
+.btn i,
+.btn-inverse i {
+  margin-left: 10px;
+}
+
 /* Image */
 .img {
   width: 80%;
@@ -273,6 +289,8 @@ Specific Section
   color: #787885;
 }
 
+/* Testimonial */
+
 #testimonial {
   margin-top: 50px;
   padding-bottom: 50px;
@@ -287,4 +305,25 @@ footer {
   padding: 40px;
   background-color: #171717;
   color: #ffffff;
+}
+
+footer .logo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer .social-icons {
+  justify-content: center;
+}
+
+footer .social-icons i {
+  margin: 10px 20px;
+  color: #ffffff;
+  font-size: 20px;
 }
