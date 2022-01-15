@@ -1,11 +1,18 @@
 /* General */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 /* Alignments */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.space-between {
+  justify-content: space-between;
+}
 .center {
   margin: 0 auto;
 }
@@ -28,13 +35,16 @@ body {
 .row {
   display: flex;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
 .box {
   padding-left: 5%;
   padding-right: 5%;
 }
 .col-half {
   width: 50%;
-  padding-left: 5%;
 }
 .col-one-third {
   width: 33.33%;
@@ -45,16 +55,16 @@ body {
 
 /* Typography */
 .heading-font {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .heading-1 {
   font-size: 50px;
-  line-height: 1.6;
+  line-height: 1.2;
   margin: 0;
 }
 .heading-2 {
   font-size: 30px;
-  line-height: 1.6;
+  line-height: 1.2;
   margin: 0;
 }
 .testimonial-text {
@@ -65,7 +75,7 @@ body {
 }
 p {
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 .p-margin-vertical {
   margin: 40px 0;
@@ -92,18 +102,14 @@ p {
 
 /* Button */
 .btn {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
-  padding: 20px 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 15px 30px;
   text-decoration: none;
-  background: rgb(17, 60, 252);
-  background: linear-gradient(
-    45deg,
-    rgba(17, 60, 252, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: rgb(224, 44, 109);
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 35px;
+  font-weight: 700;
 }
 
 /* Image */
@@ -112,6 +118,9 @@ p {
 }
 
 /* Extras */
+.vert-center {
+  align-items: center;
+}
 .margin-20-vert {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -126,12 +135,70 @@ p {
   padding-top: 0;
   padding-bottom: 0;
 }
-.round {
+
+/***************** 
+Specific Section 
+*****************/
+
+/* Header */
+
+.logo a {
+  text-decoration: none;
+  color: #171717;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-/* Specific Section */
-#expertise {
-  margin-top: 50px;
+.navbar > ul {
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #171717;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.navbar li i {
+  font-size: 24px;
+}
+
+/* Hero */
+
+#hero img {
+  max-width: 465px;
+}
+
+#hero i {
+  margin-left: 20px;
+}
+
+/* Brand */
+
+#brand {
+  margin: 30px 0px;
+}
+
+#brand img {
+  height: 30px;
+}
+
+#brand > div {
+  background-image: url(/images/brand-back.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#brand > div > div {
+  align-self: center;
 }
 
 #testimonial {
