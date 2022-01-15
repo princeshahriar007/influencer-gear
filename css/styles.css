@@ -289,6 +289,13 @@ Specific Section
   margin-left: 20px;
 }
 
+#hero .img {
+  transition: all 0.2s ease-in-out;
+}
+#hero .img:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 668px) {
   #hero {
     text-align: center;
