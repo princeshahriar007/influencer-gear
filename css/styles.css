@@ -1,8 +1,6 @@
 /* General */
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
 * {
@@ -143,12 +141,6 @@ body {
   }
 }
 
-.testimonial-text {
-  font-style: italic;
-}
-.blue-color {
-  color: #1c6dd0;
-}
 p {
   font-size: 20px;
   line-height: 1.4;
@@ -205,10 +197,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
-.round-corner {
-  border-radius: 15px;
-  margin: 15px;
-}
+
 .border-left {
   border-left: 5px solid #1c6dd0;
   padding-left: 20px;
