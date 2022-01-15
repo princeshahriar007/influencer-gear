@@ -1,0 +1,151 @@
+/* General */
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Alignments */
+.center {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.va-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Row styling */
+.row {
+  display: flex;
+}
+.box {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.col-half {
+  width: 50%;
+  padding-left: 5%;
+}
+.col-one-third {
+  width: 33.33%;
+}
+.col-two-third {
+  width: 66.66%;
+}
+
+/* Typography */
+.heading-font {
+  font-family: "Josefin Sans", sans-serif;
+}
+.heading-1 {
+  font-size: 50px;
+  line-height: 1.6;
+  margin: 0;
+}
+.heading-2 {
+  font-size: 30px;
+  line-height: 1.6;
+  margin: 0;
+}
+.testimonial-text {
+  font-style: italic;
+}
+.blue-color {
+  color: #1c6dd0;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.p-margin-vertical {
+  margin: 40px 0;
+}
+
+/* Background Color*/
+.bg-teal {
+  background-color: #c1ffd79c;
+}
+.bg-coral-blue {
+  background-color: #7deeff9c;
+}
+.bg-cream {
+  background-color: #fff5b79c;
+}
+
+/* Card Styling*/
+.card-padding {
+  padding: 20px 40px;
+}
+.card-image {
+  width: 250px;
+}
+
+/* Button */
+.btn {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  padding: 20px 40px;
+  text-decoration: none;
+  background: rgb(17, 60, 252);
+  background: linear-gradient(
+    45deg,
+    rgba(17, 60, 252, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Image */
+.img {
+  width: 80%;
+}
+
+/* Extras */
+.margin-20-vert {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.round-corner {
+  border-radius: 15px;
+  margin: 15px;
+}
+.border-left {
+  border-left: 5px solid #1c6dd0;
+  padding-left: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.round {
+}
+
+/* Specific Section */
+#expertise {
+  margin-top: 50px;
+}
+
+#testimonial {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#testimonial img {
+  width: 350px;
+  border-radius: 200px;
+}
+
+footer {
+  padding: 40px;
+  background-color: #171717;
+  color: #ffffff;
+}
