@@ -15,6 +15,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0px 30px;
+  }
+}
 .space-between {
   justify-content: space-between;
 }
@@ -42,6 +47,7 @@ body {
 }
 .grid {
   display: grid;
+  justify-content: center;
 }
 .grid-7 {
   grid-template-columns: repeat(7, 1fr);
@@ -55,6 +61,29 @@ body {
 .grid-1-2 {
   grid-template-columns: 1fr 2fr;
 }
+.grid-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 939px) {
+  .grid-7 {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+  }
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid-2-1 {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
 .box {
   padding: 25px;
   box-shadow: 5px 5px 30px -10px rgba(0, 0, 0, 0.55);
@@ -85,6 +114,16 @@ body {
   line-height: 1.2;
   margin: 0;
 }
+
+@media screen and (max-width: 939px) {
+  .heading-1 {
+    font-size: 40px;
+  }
+  .heading-2 {
+    font-size: 26px;
+  }
+}
+
 .testimonial-text {
   font-style: italic;
 }
@@ -159,6 +198,10 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.margin-20-hor {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .round-corner {
   border-radius: 15px;
   margin: 15px;
@@ -194,6 +237,7 @@ Specific Section
 
 .navbar li a {
   text-decoration: none;
+  line-height: 32px;
   font-size: 16px;
   color: #171717;
   font-family: "Open Sans", sans-serif;
@@ -309,6 +353,15 @@ Specific Section
   width: 350px;
   border-radius: 200px;
 }
+
+@media screen and (max-width: 939px) {
+  #testimonial img {
+    width: 100%;
+    border-radius: 200px;
+  }
+}
+
+/* Footer */
 
 footer {
   padding: 40px;
