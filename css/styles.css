@@ -49,8 +49,17 @@ body {
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-1-2 {
+  grid-template-columns: 1fr 2fr;
+}
 .box {
-  padding: 15px;
+  padding: 25px;
+  box-shadow: 5px 5px 30px -10px rgba(0, 0, 0, 0.55);
+  margin: 30px 0px;
+  border-radius: 10px;
 }
 .col-half {
   width: 50%;
@@ -293,7 +302,7 @@ Specific Section
 
 #testimonial {
   margin-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #testimonial img {
